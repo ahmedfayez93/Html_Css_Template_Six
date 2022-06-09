@@ -1,0 +1,242 @@
+/* Container */
+/* Small Screens */
+@media (min-width: 767px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium Screen */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large Screen */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* Header */
+@media (max-width: 830px) {
+  .header-section .header-top .contact-nav a span {
+    display: none;
+  }
+  .header-section .header-top .contact-nav {
+    justify-content: space-between;
+  }
+  .header-section .header-top .contact-nav a i {
+    font-size: 24px;
+  }
+  .header-section .header-top .contact-nav a {
+    margin-right: 0;
+  }
+  .header-section .header-bottom .navbar .items-start .logo {
+    padding: 10px 30px;
+    margin-right: 0;
+  }
+  .header-section .header-bottom .navbar .items-start .logo img {
+    width: 30px;
+  }
+  .header-section .header-bottom .navbar .items-start .main-nav {
+    display: none;
+  }
+  .header-section .header-bottom .navbar .bars {
+    display: unset;
+  }
+}
+
+@media (max-width: 1080px) {
+  .header-section .header-bottom .navbar .items-end {
+    display: none;
+  }
+}
+
+@media (max-width: 1270px) {
+  .header-section
+    .header-bottom
+    .navbar
+    .items-start
+    .main-nav
+    .nav-item
+    .nav-link {
+    margin: 10px 0;
+  }
+}
+
+/* Landing */
+@media (max-width: 767px) {
+  .landing .slider {
+    flex-direction: column;
+  }
+  .landing .slider .text {
+    padding-right: 0px;
+  }
+  .landing .slider .photo {
+    padding-left: 0px;
+  }
+  .landing .slider .box {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .landing .slider {
+    padding-top: 75px;
+    padding-bottom: 125px;
+  }
+  .landing .dots img {
+    opacity: 40%;
+  }
+}
+
+/* Book */
+@media (max-width: 767px) {
+  .book .form form {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+/* About */
+@media (max-width: 767px) {
+  .about .row {
+    flex-direction: column;
+  }
+  .about .row .box {
+    width: 100%;
+  }
+  .about .row .photo,
+  .about .row .text {
+    padding: 0;
+  }
+  .about .row .text {
+    margin-top: 45px;
+  }
+}
+
+/* Treatment */
+@media (max-width: 767px) {
+  .treatment .side-image {
+    display: none;
+  }
+}
+@media (max-width: 1300px) {
+  .treatment .side-image {
+    opacity: 0.2;
+  }
+}
+
+/* Doctors */
+@media (max-width: 659px) {
+  .doctors .row .box {
+    max-height: fit-content;
+  }
+  .doctors .row .box-2 {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .doctors .row {
+    padding: 0;
+    margin: auto;
+  }
+  .doctors .row .box-3 {
+    display: none;
+  }
+}
+
+@media (max-width: 785px) {
+  .doctors .row .arrows {
+    margin-top: 45px;
+  }
+  .doctors .row .arrows a {
+    position: unset;
+    transform: none;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .doctors .row .box {
+    max-height: 335px;
+  }
+  .doctors .row .box-3 {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .doctors .row {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+  .doctors .row .box {
+    max-height: 305px;
+  }
+}
+
+/* Testimonial */
+@media (max-width: 992px) {
+  .testimonial .box .article {
+    margin: 15px 0;
+  }
+  .testimonial .box .arrows {
+    margin-top: 45px;
+  }
+  .testimonial .box .arrows a {
+    position: unset;
+    transform: none;
+    width: 45px;
+    height: 45px;
+    margin: 0 2.5px;
+  }
+}
+
+/* Contact US */
+@media (max-width: 767px) {
+  .contact-us .row {
+    flex-direction: column;
+  }
+  .contact-us .row .box,
+  .contact-us .row .image {
+    width: 100%;
+    padding: 0;
+  }
+  .contact-us .row .box form {
+    margin: 0 0 25px;
+  }
+}
+
+/* Footer */
+@media (max-width: 576px) {
+  .footer .box .top {
+    flex-direction: column;
+  }
+  .footer .box .top .logo {
+    margin: 0;
+  }
+}
+@media (max-width: 767px) {
+  .footer .box .bottom {
+    text-align: center;
+  }
+  .footer .box .bottom .colm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .box .bottom .colm-1 .content a {
+    justify-content: center;
+  }
+  .footer .box .bottom .colm-3 .content .post {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .box .bottom .colm-3 .content .post .image {
+    margin: 0 0 8px;
+  }
+  .footer .box .bottom .colm-3 .content .post .text p br {
+    display: none;
+  }
+}
